@@ -42,10 +42,10 @@ if (n1 % 5 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-if (n1 === 8 || n2 === 8 || n1 + n2 === 8) {
-  console.log("Il valore di uno dei due numeri o la loro somma è 8");
+if (n1 === 8 || n2 === 8 || n1 + n2 === 8 || n1 - n2 === 8 ) {
+  console.log("Il valore di uno dei due numeri o la loro somma/differenza è 8");
 } else {
-  console.log("Il valore di uno dei due numeri o la loro somma NON è 8");
+  console.log("Il valore di uno dei due numeri o la loro somma/differenza NON è 8");
 }
 
 /* ESERCIZIO 5
@@ -167,7 +167,7 @@ const me = {
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-me.city="Toronto";
+me.city = "Toronto";
 console.log("Città:", me.city);
 
 /* ESERCIZIO 12
@@ -185,7 +185,7 @@ console.log("Last name:", me.lastName);
 /* SCRIVI QUI LA TUA RISPOSTA */
 //delete me.skills.length-1;
 me.skills.pop();
-console.log("Skills", me.skills)
+console.log("Skills", me.skills);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
@@ -204,7 +204,6 @@ numeri.push(8);
 numeri.push(9);
 numeri.push(10);
 console.log("sas", numeri);
-
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
